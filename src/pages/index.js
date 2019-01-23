@@ -47,9 +47,8 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>Ipsum sed adipiscing</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>With years of experience in sourcing, manufacturing and the export industry, we are here to help you with improve your bottom line.</p>
+                <p>Our experience and services cover both small and large companies.</p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
@@ -60,23 +59,23 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Experience and Services</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Create supplier shortlists</h3>
+                <p>We sort through listing, contacting individual companies who have shown themselves to deliver quality at a great value.</p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Verification of QC reports</h3>
+                <p>We check shipments before they leave the factory to ensure that manufacturer testing has been done properly.</p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Offloading of RFQ and price negotiations</h3>
+                <p>We negotiate pricing for product and shipping to make sure you reach your goals.</p>
               </li>
             </ul>
             <footer className="major">
