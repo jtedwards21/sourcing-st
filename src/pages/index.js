@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
+import pic07 from '../assets/images/pic07.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -87,13 +88,12 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Our Suppliers</h2>
+              <p>We personally tour our suppliers' facilities to ensure that they meet our standards <br />as well as those of our customers.</p>
             </header>
             <div className="">
-              <span className="image left"><img src={pic01} alt="" /></span>
-              <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+              <span className="image left"><img src={pic07} alt="" /></span>
+              <p className="content">Many of our supplier offer a variety of different options for packaging and shipping and</p>
             </div>
               <footer className="major">
               <ul className="actions">
