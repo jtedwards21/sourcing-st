@@ -13,7 +13,7 @@ const Footer = (props) => (
             </ul>
         </section>
         <section>
-            <h2>Etiam feugiat</h2>
+            <h2>Contact Information</h2>
             <dl className="alt">
                 <dt>Address</dt>
                 <dd>Kangqiao Gardens &bull; Jiaxing, Zhejiang 314000 &bull; China</dd>
