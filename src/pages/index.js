@@ -117,8 +117,7 @@ class Index extends React.Component {
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="/generic" className="button">Contact Us</Link></li>
               </ul>
             </footer>
           </section>

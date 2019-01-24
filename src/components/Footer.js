@@ -8,9 +8,6 @@ const Footer = (props) => (
         <section>
             <h2>Who we are</h2>
             <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-            <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-            </ul>
         </section>
         <section>
             <h2>Contact Information</h2>
