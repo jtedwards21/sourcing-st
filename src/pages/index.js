@@ -8,6 +8,9 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
 import pic07 from '../assets/images/pic07.jpg'
+import pic08 from '../assets/images/pic08.jpg'
+import pic09 from '../assets/images/pic09.jpg'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -91,15 +94,18 @@ class Index extends React.Component {
               <h2>Our Suppliers</h2>
               <p>We personally tour our suppliers' facilities to ensure that they meet our standards <br />as well as those of our customers.</p>
             </header>
-            <div className="">
               <span className="image left"><img src={pic07} alt="" /></span>
-              <p className="content">Many of our supplier offer a variety of different options for packaging and shipping and</p>
-            </div>
-              <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
+              <h3>Packaging</h3>
+              <p className="content">Suppliers typically offer a variety of different options for packaging and shipping, according to customer requirements. Many customers choose to finish all packaging before the product has left China. This may include cardboard boxes, tags, labels and information includeds in the packaging.</p>
+              <p className="content">Please let us know what your requirements are and we can take care of thise as quickly as possible.</p>
+              <span className="image right"><img src={pic08} alt="" /></span>
+              <h3>Shipping, Assembly and Consolidation</h3>
+              <p className="content">Shipping options you should consider depend on your order size, product and the time-frame in which you'd like your product to arrive. Options include sea freight, air freight and express services.</p>
+              <p className="content">If you have a product, that needs to be assembled, our suppliers can assign and train workers to do this process for you without shipping components to a third party.</p>
+              <p className="content">If you have multiple products or components that you would like shipped together, we can arrange for them to be stored together at no extra cost.
+              <span className="image left"><img src={pic09} alt="" /></span>
+              <h3>Inspection and Quality Guarantee</h3>
+              <p className="content"> Depending on the product, what we typically offer is the inspection of each individual product, until we can confirm that the shipment is 100% composed of products that pass</p>
           </section>
 
           <section id="cta" className="main special">
