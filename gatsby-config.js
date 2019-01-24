@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Export Checkout - Export agents to help you do more with your business",
+    author: "Joshua Edwards",
+    description: "Our business helps companies with their product sourcing"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
