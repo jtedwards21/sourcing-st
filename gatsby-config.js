@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Export Checkout - Export agents to help you do more with your business",
+    title: "Delta Sourcing - Export agents to help you do more with your business",
     author: "Joshua Edwards",
-    description: "Our business helps companies with their product sourcing"
+    description: "Our business helps companies source their products"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
