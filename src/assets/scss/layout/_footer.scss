@@ -12,20 +12,7 @@
 		@include padding(5em, 5em);
 		width: calc(100% + #{_size(element-margin)});
 		margin: 0 0 (_size(element-margin) * 1.5) (_size(element-margin) * -1);
-		color: #ffffff;
-
-		h2 {
-			color: #ffffff;
-		}
-		dt {
-			color: #ffffff;
-		}
-		a {
-			color: #ffffff;
-		}
-		.button {
-			color: #ffffff;
-		}
+		
 
 		> * {
 			width: calc(50% - #{_size(element-margin)});
