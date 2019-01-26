@@ -19,6 +19,22 @@
 			display: none;
 		}
 
+		&.image {
+			display: inline-block;
+			margin-left: 4em;
+			padding: 0.65em;
+			border-radius: 100%;
+			border: solid 1px;
+
+			img {
+				display: block;
+				border-radius: 100%;
+				width: 16em;
+
+
+			}
+		}
+
 		&.major {
 			border: solid 1px;
 			display: inline-block;
@@ -103,6 +119,11 @@
 	}
 
 	@mixin color-icon($p: null) {
+
+	  .image {
+			border-color: _palette($p, border);
+		}
+
 		.icon {
 			&.major {
 				border-color: _palette($p, border);
@@ -126,5 +147,7 @@
  			}
 		}
 	}
+
+
 
 	@include color-icon;

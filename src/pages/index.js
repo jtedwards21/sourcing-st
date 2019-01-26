@@ -94,7 +94,7 @@ class Index extends React.Component {
               <h2>Our Suppliers</h2>
               <p>We personally tour our suppliers' facilities to ensure that they meet our standards <br />as well as those of our customers.</p>
             </header>
-              
+
               <footer className="major">
                 <ul className="actions">
                   <li><Link to="/suppliers" className="button">Learn More</Link></li>
