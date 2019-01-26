@@ -20,7 +20,7 @@ const Footer = (props) => (
                 <dd><a href="#">information@untitled.tld</a></dd>
             </dl>
         </section>
-        <p className="copyright">&copy; Stellar Sourcing</p>
+        <p className="copyright">&copy; Delta Sourcing</p>
     </footer>
 )
 
