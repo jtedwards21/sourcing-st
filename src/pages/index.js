@@ -94,20 +94,12 @@ class Index extends React.Component {
               <h2>Our Suppliers</h2>
               <p>We personally tour our suppliers' facilities to ensure that they meet our standards <br />as well as those of our customers.</p>
             </header>
-              <span className="image left"><img src={pic07} alt="" /></span>
-              <h3>Packaging</h3>
-              <p className="content">Suppliers typically offer a variety of different options for packaging and shipping, according to customer requirements. Many customers choose to finish all packaging before the product has left China. This may include cardboard boxes, tags, labels and information includeds in the packaging.</p>
-              <p className="content">Please let us know what your requirements are and we can take care of thise as quickly as possible.</p>
-              <span className="image right"><img src={pic08} alt="" /></span>
-              <h3>Shipping, Assembly and Consolidation</h3>
-              <p className="content">Shipping options you should consider depend on your order size, product and the time-frame in which you'd like your product to arrive. Options include sea freight, air freight and express services.</p>
-              <p className="content">If you have a product, that needs to be assembled, our suppliers can assign and train workers to do this process for you without shipping components to a third party.</p>
-              <p className="content">If you have multiple products or components that you would like shipped together, we can arrange for them to be stored together at no extra cost.</p>
-              <span className="image left"><img src={pic09} alt="" /></span>
-              <h3>Inspection and Quality Guarantee</h3>
-              <p className="content">Our suppliers are interested in having a long-term business relationship with customers, and most are willing to offer a guarantee that the product received is consistent with the samples received prior to mass production. </p>
-              <p className="content">Depending on the product, what we typically offer is the inspection of each individual product, until we can confirm that the shipment is 100% composed of  </p>
-
+              
+              <footer className="major">
+                <ul className="actions">
+                  <li><Link to="/suppliers" className="button">Learn More</Link></li>
+                </ul>
+              </footer>
           </section>
 
           <section id="cta" className="main special">
