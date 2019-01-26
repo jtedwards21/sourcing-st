@@ -6,8 +6,8 @@ import logo from '../assets/images/logo.svg';
 const Footer = (props) => (
     <footer id="footer">
         <section className="box white-box">
-            <h2>Who we are</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+            <h2>About Us</h2>
+            <p>Our mission is to help your business source products from China with no hassle or worry. It takes many companies years to find and establish a steady business relationship with a supplier in China. We have years of experience working with factories in Eastern China and can help you establish the kind of business relationships you need to be successful.</p>
         </section>
         <section className="box white-box">
             <h2>Contact Information</h2>

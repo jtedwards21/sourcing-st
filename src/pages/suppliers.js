@@ -2,23 +2,24 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import HeaderGeneric from '../components/HeaderGeneric'
+import SupplierHeader from '../components/SupplierHeader'
 import pic04 from '../assets/images/pic04.jpg'
 import pic07 from '../assets/images/pic07.jpg'
 import pic11 from '../assets/images/pic11.jpg'
 import pic12 from '../assets/images/pic12.jpeg'
 import pic09 from '../assets/images/pic09.jpg'
+import pic99 from '../assets/images/pic99.jpg'
 
 class Generic extends React.Component {
   render() {
 
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
-        <HeaderGeneric />
+        <Helmet title="Our Suppliers" />
+        <SupplierHeader />
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={pic04} alt="" /></span>
+            <span className="image main"><img src={pic99} alt="" /></span>
             <div className="spotlight">
               <div className="content">
                 <header className="major">
