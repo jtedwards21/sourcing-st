@@ -54,7 +54,7 @@ class Index extends React.Component {
                 <p>With years of experience in sourcing, manufacturing and the export industry, we are here to help you with improve your bottom line.</p>
                 <p>Our experience and services cover both small and large companies.</p>
                 <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
+                  <li><Link to="/about" className="button">Learn More</Link></li>
                 </ul>
               </div>
               <span className="image"><img src={pic01} alt="" /></span>
@@ -84,7 +84,7 @@ class Index extends React.Component {
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="/services" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>

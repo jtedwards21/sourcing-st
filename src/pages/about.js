@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import HeaderGeneric from '../components/HeaderGeneric'
+import AboutHeader from '../components/AboutHeader'
 import pic04 from '../assets/images/pic04.jpg'
 
 class Generic extends React.Component {
@@ -10,8 +10,8 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
-        <HeaderGeneric />
+        <Helmet title="About Us" />
+        <AboutHeader />
         <div id="main">
           <section id="content" className="main">
             <span className="image main"><img src={pic04} alt="" /></span>
