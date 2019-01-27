@@ -21,8 +21,14 @@ class Generic extends React.Component {
             <h2>Product Samples</h2>
             <p>If you're located outside of China, getting samples can often be a waste of time and money.</p>
             <p>It's more time- and cost-efficient for us to receive your samples for you. Anything that doesn't meet basic standards with not be shipped to you and the rest will be consolidated.</p>
-            <h2>Product Samples</h2>
-            <p>If you're located outside of China, getting samples can often be a waste of time and money.</p>
+            <h2>Production Follow-Up</h2>
+            <p>Follow-up is generally more time-consuming than looking for a supplier, and for many companies is ongoing.</p>
+            <p>Follow-up means that while ensure that everything is produced on time and to requirements, and that we periodically as the status of your order.</p>
+            <p>We also ensure that the import and export process goes smoothly.</p>
+            <h2>Shipping</h2>
+            <p>We will calculate all costs for shipping as well as the time-frame in which you should expect to receive the goods. This way we can find the shipping method that works best for you.</p>
+            <h2>Infromational Materials, Photography and Design</h2>
+            <p>We also provide this type of service.</p>
           </section>
         </div>
       </Layout>
